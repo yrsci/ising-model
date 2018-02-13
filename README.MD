@@ -3,3 +3,5 @@ The simulation is run using ising-model.sh, which prompts the user to either acc
 Once the run completes, the user has the option of proceeding straight to the analysis (via automated running of analysis.sh, which again prompts the user for values and runs a python script lattice_analysis.py), or exiting the program. As the simulation saves regular .pbm snapshots of the run at each temperature / field value, it is easy to run analysis.sh at a later time to analyse the data.
 
 The plots for the h=0 case are split into their own script to keep lattice_analysis.py easily readable.
+
+** Note: Error handling is minimal and will be properly implemented when I have the time. **
